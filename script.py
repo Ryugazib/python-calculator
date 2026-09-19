@@ -7,7 +7,7 @@ if operasi_bilangan == 'kali':
 
 elif operasi_bilangan == 'bagi':
     if float(angka_kedua) == 0:
-        print ('gabisa kocak mikir kids')
+        print ('tidak bisa melakukan pembagian dengan 0.')
     else:
         print (float(angka_pertama) / float(angka_kedua))
 
@@ -17,4 +17,4 @@ elif operasi_bilangan == 'tambah':
 elif operasi_bilangan == 'kurang':
     print (int(angka_pertama) - int(angka_kedua))
 else:
-    print ('apasih kocak disuruh ngetik apa luxu')
+    print ('maaf operasi bilangan tidak sesuai.')
